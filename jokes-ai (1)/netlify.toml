@@ -1,21 +1,21 @@
 [build]
-  publish   = "."
+  publish = "."
   functions = "netlify/functions"
 
 [build.environment]
   NODE_VERSION = "18"
 
 [[redirects]]
-  from   = "/api/transcribe"
-  to     = "/.netlify/functions/transcribe"
+  from = "/api/transcribe"
+  to = "/.netlify/functions/transcribe"
   status = 200
 
 [[redirects]]
-  from   = "/api/joke"
-  to     = "/.netlify/functions/joke"
+  from = "/api/joke"
+  to = "/.netlify/functions/joke"
   status = 200
 
 [[redirects]]
-  from   = "/api/speak"
-  to     = "/.netlify/functions/speak"
+  from = "/api/speak"
+  to = "/.netlify/functions/speak"
   status = 200
